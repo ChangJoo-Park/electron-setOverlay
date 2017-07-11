@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Electron Overlay Icon example!</h1>
+    <h2>Click button and see </h2>
+    <div class="">
+      <button type="button" class="icon-changer" data-type="notification">Change Icon - Notification</button> <br><br>
+
+      <button type="button" class="icon-changer" data-type="default">Change Icon - Default</button>
+    </div>
+
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
